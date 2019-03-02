@@ -16,6 +16,6 @@ def calculator():
 	# Reduce function iterates over the list by taking values as tuples of two,
 	# performs the lambda expression, takes the result as the first value of the next tuple.
 	res = reduce((lambda x, y: op_map[args.operation](x, y)), args.numbers)
-	print('Result for {} on {} is'.format(args.operation, args), res)
+	print('Result for {} on {} is'.format(args.operation, args.numbers), res)
 
 calculator()

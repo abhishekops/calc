@@ -13,3 +13,10 @@ positional arguments:
 optional arguments:
   -h, --help            show this help message and exit
   --operation {+,-,*,/}```
+
+
+## Example
+
+``` python calc.py 1 2 3 --operation + would return
+
+Result for + on [1, 2, 3] is 6```
